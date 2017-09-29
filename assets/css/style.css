@@ -1,9 +1,11 @@
+html, body{
+	height: 100%;
+}
 
 body{
 	background: #4aaaa5;
 	color: #777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	height: 100%;
 	margin: 0;
 }
 
@@ -18,8 +20,7 @@ h3{
 }
 
 .wrapper{
-	min-height: 100%;
-	margin-bottom: -50px;
+	min-height: 87%;
 	background-image: url(../images/vintage-concrete.png);
 	background-repeat: repeat;
 }
@@ -52,7 +53,6 @@ h3{
 	left: 0;
 	background: #fff;
 	border: 1px solid #ccc;
-	display: block;
 }
 
 #nameBar{
@@ -83,8 +83,6 @@ h3{
 
 #content{
 	width: 960px;
-	min-height: 340px;
-	height: 100%;
 	margin: 0 auto;
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -112,7 +110,6 @@ h3{
 #section{
 	float: left;
 	width: 650px;
-	min-height: 300px;
 	background: #fff;
 	border: 1px solid #ccc;
 }
@@ -120,7 +117,6 @@ h3{
 #connect{
 	float: right;
 	width: 270px;
-	min-height: 100px;
 	background: #fff;
 	text-align: center;
 	border: 1px solid #ccc;
@@ -129,8 +125,13 @@ h3{
 .footer, .push{
 	height: 40px;
 }
-.push{
-	margin: 20px;
+
+footer{
+	background: #666;
+	min-width: 750px;
+	text-align: center;
+	padding: 30px;
+	color: #fff;
 }
 
 .clearfix:after {
@@ -140,13 +141,5 @@ h3{
     height: 0;
     line-height: 0;
     visibility: hidden;
-}
-
-footer{
-	background: #666;
-	min-width: 750px;
-	text-align: center;
-	padding: 30px;
-	color: #fff;
 }
 
